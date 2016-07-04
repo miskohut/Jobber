@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:background="@drawable/row_background">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_1"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_2"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_3"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_4"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_5"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_6"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_7"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:background="@drawable/row_background">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_8"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_9"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_10"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_11"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_12"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_13"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_14"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:background="@drawable/row_background">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_15"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_16"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_17"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_18"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_19"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_20"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_21"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:background="@drawable/row_background">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_22"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_23"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_24"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_25"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_26"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_27"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_28"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:background="@drawable/row_background">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_29"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_30"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_31"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_32"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_33"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_34"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_35"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_36"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_37"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_38"
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_39"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_40"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_41"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.14"
+                android:orientation="vertical"
+
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/_42"
+
+                    android:textAlignment="center"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/hours_42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+   <!-- <GridView
+        android:id="@+id/calendar_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:numColumns="7"
+        android:layout_below="@id/days_header_parent">
+
+    </GridView>-->
+</RelativeLayout>

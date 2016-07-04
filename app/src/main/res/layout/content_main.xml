@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UI.activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/monday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/monday"/>
+
+        <TextView
+            android:id="@+id/tuesday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/tuesday"/>
+
+        <TextView
+            android:id="@+id/wednesday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/wednesday"/>
+
+        <TextView
+            android:id="@+id/thursday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/thursday"/>
+
+        <TextView
+            android:id="@+id/friday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/friday"/>
+
+        <TextView
+            android:id="@+id/saturday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/saturday"/>
+
+        <TextView
+            android:id="@+id/sunday_header"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14"
+
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:textSize="20sp"
+
+            android:text="@string/sunday"/>
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/calendar"
+
+        android:layout_below="@id/headers"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

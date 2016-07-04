@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "m3.jobber"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:gridlayout-v7:23.1.+'
+
+    //SQLite Flow wrapper
+    apt 'com.github.Raizlabs.DBFlow:dbflow-processor:3.0.1'
+    compile 'com.github.Raizlabs.DBFlow:dbflow-core:3.0.1'
+    compile 'com.github.Raizlabs.DBFlow:dbflow:3.0.1'
+
+    //calendar view
+    compile 'com.roomorama:caldroid:3.0.1'
+    compile 'com.github.npanigrahy:Custom-Calendar-View:v1.0'
+
+    //Joda-Time for handling times
+    compile 'joda-time:joda-time:2.9.3'
+
+    //guava
+    compile 'com.google.guava:guava:19.0'
+
+    //event bus
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+    //http async
+    compile 'com.loopj.android:android-async-http:1.4.9'
+}
